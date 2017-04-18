@@ -14,31 +14,33 @@ import java.util.ArrayList;
  */
 
 public class MallsFragment extends Fragment {
-    public MallsFragment() {
-    }
-
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.place_list, container, false);
-        //Create an array of words
-        final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place("Kingdom Centre Tower", "It is the tallest tower in Saudi Arabia.",
-                " King Fahad Road, Riyadh, Saudi Arabia", R.drawable.kingdom_tower));
-
-        places.add(new Place("Al Nakheel Mall", "There is many large shops for brands. And there is many cafes",
-                "2976 Al Al Imam Saud Ibn Abdul Aziz Branch Road | Al Mughrizat, Riyadh 124856121, Saudi Arabia", R.drawable.alnakheel_mall));
-
-        places.add(new Place("Riyadh Gallery Mall", "In this mall you can find most popular stores around",
-                "King Fahd Road | 24. 743892, 46. 657829, Riyadh, Saudi Arabia", R.drawable.riyadh_gallery));
-
-        places.add(new Place("Panorama Mall","Consider one of good choice even daily visit they have many Brand’s shops , cafe,resturant's and kids area",
-                "Takhassusi | Al Ma'thar Ash Shamali, Riyadh 12332, Saudi Arabia",
-                 R.drawable.panorama_mall));
 
 
-        PlaceAdapter itemsAdapter = new PlaceAdapter(getActivity(), R.layout.list_item, places, R.color.category_resturants);
 
+        private ArrayList<Place> places;
+
+
+        @Override
+        public View onCreateView (LayoutInflater inflater, ViewGroup container,
+                Bundle savedInstanceState){
+            View rootView = inflater.inflate(R.layout.place_list, container, false);
+
+            //Create an array of words
+            places = new ArrayList<Place>();
+            places.add(new Place(getResources().getString(R.string.kingdom_centre_tower), getResources().getString(R.string.kingdom_centre_tower_describtion),
+                    getResources().getString(R.string.kingdom_centre_tower_location), R.drawable.kingdom_tower));
+
+            places.add(new Place(getResources().getString(R.string.nakheel), getResources().getString(R.string.nakheel_describtion),
+                    getResources().getString(R.string.nakheel_location), R.drawable.alnakheel_mall));
+
+            places.add(new Place(getResources().getString(R.string.riyadh_gallery), getResources().getString(R.string.riyadh_gallery_describtion),
+                    getResources().getString(R.string.riyadh_gallery_location), R.drawable.riyadh_gallery));
+
+            places.add(new Place(getResources().getString(R.string.panorama), getResources().getString(R.string.panorama_describtion),
+                    getResources().getString(R.string.panorama_location),
+                    R.drawable.panorama_mall));
+
+            PlaceAdapter itemsAdapter = new PlaceAdapter(getActivity(), R.layout.list_item, places, R.color.category_resturants);
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 

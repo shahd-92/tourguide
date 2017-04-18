@@ -4,4 +4,78 @@
     <string name="category_parks">Parks</string>
     <string name="category_malls">Malls</string>
     <string name="category_museums">Museums</string>
+
+    <!-- Restaurants Data-->
+    <string name="lusin">Lusin</string>
+    <string name="lusin_describtion">Lusin serves its guests enticing Armenian specialities renowned for its distinctive aromas and flavourful preparations.</string>
+    <string name="lusin_location">Olaya St | 2nd floor intersection with Tahlya St, Riyadh, Saudi Arabia.</string>
+
+    <string name="nozomi">Nozomi</string>
+    <string name="nozomi_describtion">Nozomi brings an exciting and unique dining experience from Knightsbridge, London to the heart of Riyadh.</string>
+    <string name="nozomi_location">Dabbab Street, Riyadh 12223, Saudi Arabia</string>
+
+    <string name="piatto">Piatto</string>
+    <string name="piatto_describtion">One of the best Italian restaurants and great atmosphere. </string>
+    <string name="piatto_location">North Ring Road | Exit 5 Opp Tala Mall, Riyadh 301741, Saudi Arabia</string>
+
+    <string name="alnajdiyah">Al-Najdiyah Village</string>
+    <string name="alnajdiyah_describtion">The restaurant was built to represent an old traditional mud house, which was the traditional way in Najd area years ago.</string>
+    <string name="alnajdiyah_location">AboBakr AlSiddeeq Street | Al Nuzhah Area, Riyadh 11464, Saudi Arabia</string>
+
+    <string name="maharaja">Maharaja East by Vineet</string>
+    <string name="maharaja_describtion">The most authentic Indian Resturant in Riyadh </string>
+    <string name="maharaja_location">8468 King Muhammad V, As Sulimaniyah, Riyadh 12223, Saudi Arabia</string>
+
+    <!-- Museums Data-->
+    <string name="national_museum">National Museum</string>
+    <string name="national_museum_describtion">It shows that history is only told from one view. The museum has a great flow from the beginning of time through to modern day.</string>
+    <string name="national_museum_location">Al-Muraba - King Abdul Aziz Historical Center, Riyadh 11481, Saudi Arabia</string>
+
+    <string name="kahc">King Abdulaziz Historical Center</string>
+    <string name="kahc_describtion">About detailed history how and who and all where important people in development of middle East.</string>
+    <string name="kahc_location">King Saud Street, Riyadh, Saudi Arabia</string>
+
+    <string name="saqer">Saqer-Aljazirah Aviation Museum</string>
+    <string name="saqer_describtion">Its very well maintained and good collection of aircrafts.</string>
+    <string name="saqer_location">East Ring Road of Riyadh Between Exits 10 and 11 | Junction of Prince Abdullah Road and Service Road, Riyadh, Saudi Arabia</string>
+
+    <!-- Parks Data-->
+    <string name="kap">King Abdullah Park</string>
+    <string name="kap_describtion">Nice place for relaxation with the family especially on weekends.</string>
+    <string name="kap_location">Al Amin Abdullah Al Ali Al Naeem, Riyadh, Saudi Arabia</string>
+
+    <string name="Wadi_Hanifah">Wadi Hanifah</string>
+    <string name="Wadi_Hanifah_describtion">Its quite attractive place placed beside with DAM which usually fill with rain water</string>
+    <string name="Wadi_Hanifah_location">West of Al Diriyah, Riyadh, Saudi Arabia</string>
+
+    <string name="old_diraiyah">Old Diraiyah</string>
+    <string name="old_diraiyah_describtion">A great place to wander around and get a taste of the old Riyadh. </string>
+    <string name="old_diraiyah_location">Thumeiry Street, Riyadh, Saudi Arabia</string>
+
+    <string name="salam_park">Salam Park</string>
+    <string name="salam_park_describtion">The biggest park in Riyadh. Contains a big lake and a lot of playing and seatings areas. </string>
+    <string name="salam_park_location">Riyadh 12651, Saudi Arabia</string>
+
+    <string name="bujairi">Al Bujairi square</string>
+    <string name="bujairi_describtion">Its a wonderfully set up area a the far North-West of Riyadh.</string>
+    <string name="bujairi_location">King Faisal Rd, Riyadh, Saudi Arabia</string>
+
+    <!-- Mall Data-->
+    <string name="kingdom_centre_tower">Kingdom Centre Tower</string>
+    <string name="kingdom_centre_tower_describtion">It is the tallest tower in Saudi Arabia.</string>
+    <string name="kingdom_centre_tower_location">King Fahad Road, Riyadh, Saudi Arabia</string>
+
+    <string name="nakheel">Al Nakheel Mall</string>
+    <string name="nakheel_describtion">There is many large shops for brands. And there is many cafes</string>
+    <string name="nakheel_location">2976 Al Imam Saud Ibn Abdul Aziz Branch Road | Al Mughrizat, Riyadh 124856121, Saudi Arabia</string>
+
+    <string name="riyadh_gallery">Riyadh Gallery Mall</string>
+    <string name="riyadh_gallery_describtion">In this mall you can find most popular stores around</string>
+    <string name="riyadh_gallery_location">King Fahd Road | 24. 743892, 46. 657829, Riyadh, Saudi Arabia</string>
+
+    <string name="panorama">Panorama Mall</string>
+    <string name="panorama_describtion">Consider one of good choice even daily visit they have many Brand’s shops , cafe,resturants and kids area</string>
+    <string name="panorama_location">Takhassusi | Al Mathar Ash Shamali, Riyadh 12332, Saudi Arabia</string>
+
+
 </resources>
